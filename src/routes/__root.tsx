@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Prompt Agentes Studio" },
+      { name: "description", content: "EngenLab Agents Studio is a comprehensive SaaS platform for creating, configuring, and orchestrating specialized AI agents." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Prompt Agentes Studio" },
+      { property: "og:description", content: "EngenLab Agents Studio is a comprehensive SaaS platform for creating, configuring, and orchestrating specialized AI agents." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Prompt Agentes Studio" },
+      { name: "twitter:description", content: "EngenLab Agents Studio is a comprehensive SaaS platform for creating, configuring, and orchestrating specialized AI agents." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b1af163a-0ff3-40d1-a92d-1ac9577923c7/id-preview-aa3bdcaf--ffa6af70-3eaf-4188-8fc2-e4181df1db99.lovable.app-1781406131839.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b1af163a-0ff3-40d1-a92d-1ac9577923c7/id-preview-aa3bdcaf--ffa6af70-3eaf-4188-8fc2-e4181df1db99.lovable.app-1781406131839.png" },
     ],
     links: [
       {
