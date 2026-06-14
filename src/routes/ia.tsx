@@ -16,7 +16,7 @@ const providers = [
 
 function AIConfigPage() {
   const [provider, setProvider] = useState<typeof providers[number]["id"]>("openai");
-  const [model, setModel] = useState(providers[0].models[0]);
+  const [model, setModel] = useState<string>(providers[0].models[0]);
   const [showKey, setShowKey] = useState(false);
   const [validated, setValidated] = useState(true);
 
