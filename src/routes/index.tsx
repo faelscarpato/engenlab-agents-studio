@@ -32,7 +32,7 @@ const kpis = [
 
 const activity = [
   { agent: "extractor-pdf", action: "Execução concluída", project: "Onboarding clientes", time: "há 2min", tone: "success" as const },
-  { agent: "qa-engineer", action: "Nova thread iniciada", project: "Refatoração API", time: "há 6min", tone: "info" as const },
+  { agent: "qa-engineer", action: "Nova thread iniciada", project: "Refatoração API", time: "há 6min", tone: "muted" as const },
   { agent: "mail-sender", action: "Erro de validação", project: "Campanha Q4", time: "há 14min", tone: "destructive" as const },
   { agent: "code-reviewer", action: "Prompt atualizado", project: "Plataforma Core", time: "há 22min", tone: "warning" as const },
   { agent: "summarizer", action: "Execução concluída", project: "Relatórios mensais", time: "há 38min", tone: "success" as const },
